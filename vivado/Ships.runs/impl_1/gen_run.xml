@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1600119322">
+  <File Type="ROUTE-PWR" Name="Ships_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Ships.tcl"/>
+  <File Type="PWROPT-DCP" Name="Ships_pwropt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="Ships_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Ships_reports.tcl"/>
+  <File Type="BG-DRC" Name="Ships.drc"/>
+  <File Type="OPT-HWDEF" Name="Ships.hwdef"/>
+  <File Type="OPT-DCP" Name="Ships_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Ships_drc_opted.rpt"/>
+  <File Type="PLACE-DCP" Name="Ships_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Ships_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Ships_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Ships_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Ships_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Ships_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Ships_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="Ships_physopt.dcp"/>
+  <File Type="BG-BIT" Name="Ships.bit"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Ships_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Ships_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Ships_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Ships_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Ships_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Ships_drc_routed.rpx"/>
+  <File Type="BITSTR-MSK" Name="Ships.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Ships_methodology_drc_routed.rpt"/>
+  <File Type="BG-BGN" Name="Ships.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Ships_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-RBT" Name="Ships.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Ships_methodology_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="Ships.bin"/>
+  <File Type="ROUTE-PWR-RPX" Name="Ships_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Ships_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Ships_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Ships_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Ships_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Ships_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="Ships_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="Ships.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Ships_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Ships_postroute_physopt_bb.dcp"/>
+  <File Type="BITSTR-NKY" Name="Ships.nky"/>
+  <File Type="BITSTR-BMM" Name="Ships_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Ships.mmi"/>
+  <File Type="BITSTR-LTX" Name="Ships.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Ships.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Pliki/ProgramData.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Desktop/Elektronika cyfrowa/Statki/Pliki/ProgramData.v"/>
+        <Attr Name="ImportTime" Val="1598485438"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Pliki/char_rom_16x16.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Desktop/Elektronika cyfrowa/Statki/Pliki/char_rom_16x16.v"/>
+        <Attr Name="ImportTime" Val="1600119290"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Pliki/clk_wiz_0.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Desktop/Elektronika cyfrowa/Statki/Pliki/clk_wiz_0.v"/>
+        <Attr Name="ImportTime" Val="1584463556"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Pliki/clk_wiz_0_clk_wiz.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Desktop/Elektronika cyfrowa/Statki/Pliki/clk_wiz_0_clk_wiz.v"/>
+        <Attr Name="ImportTime" Val="1584463556"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Pliki/debounce.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Desktop/Elektronika cyfrowa/Statki/Pliki/debounce.v"/>
+        <Attr Name="ImportTime" Val="1590498894"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Pliki/draw_background.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Desktop/Elektronika cyfrowa/Statki/Pliki/draw_background.v"/>
+        <Attr Name="ImportTime" Val="1597963691"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Pliki/draw_char.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Desktop/Elektronika cyfrowa/Statki/Pliki/draw_char.v"/>
+        <Attr Name="ImportTime" Val="1591437547"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Pliki/draw_rect.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Desktop/Elektronika cyfrowa/Statki/Pliki/draw_rect.v"/>
+        <Attr Name="ImportTime" Val="1598454902"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Pliki/fifo.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Desktop/Elektronika cyfrowa/Statki/Pliki/fifo.v"/>
+        <Attr Name="ImportTime" Val="1590498966"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Pliki/find_ships.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Desktop/Elektronika cyfrowa/Statki/Pliki/find_ships.v"/>
+        <Attr Name="ImportTime" Val="1598353505"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Pliki/font_rom.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Desktop/Elektronika cyfrowa/Statki/Pliki/font_rom.v"/>
+        <Attr Name="ImportTime" Val="1590431589"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Pliki/mod_m_counter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Desktop/Elektronika cyfrowa/Statki/Pliki/mod_m_counter.v"/>
+        <Attr Name="ImportTime" Val="1590498998"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Pliki/place_ships.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Desktop/Elektronika cyfrowa/Statki/Pliki/place_ships.v"/>
+        <Attr Name="ImportTime" Val="1598485737"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Pliki/uart.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Desktop/Elektronika cyfrowa/Statki/Pliki/uart.v"/>
+        <Attr Name="ImportTime" Val="1590493649"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Pliki/uart_buffer.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Desktop/Elektronika cyfrowa/Statki/Pliki/uart_buffer.v"/>
+        <Attr Name="ImportTime" Val="1591896911"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Pliki/uart_communication.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Desktop/Elektronika cyfrowa/Statki/Pliki/uart_communication.v"/>
+        <Attr Name="ImportTime" Val="1590500356"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Pliki/uart_rx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Desktop/Elektronika cyfrowa/Statki/Pliki/uart_rx.v"/>
+        <Attr Name="ImportTime" Val="1590498982"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Pliki/uart_tx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Desktop/Elektronika cyfrowa/Statki/Pliki/uart_tx.v"/>
+        <Attr Name="ImportTime" Val="1590498942"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Pliki/vga_timing.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Desktop/Elektronika cyfrowa/Statki/Pliki/vga_timing.v"/>
+        <Attr Name="ImportTime" Val="1590316990"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Pliki/MouseCtl.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Desktop/Elektronika cyfrowa/Statki/Pliki/MouseCtl.vhd"/>
+        <Attr Name="ImportTime" Val="1584487005"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Pliki/MouseDisplay.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Desktop/Elektronika cyfrowa/Statki/Pliki/MouseDisplay.vhd"/>
+        <Attr Name="ImportTime" Val="1585209326"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Pliki/Ps2Interface.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Desktop/Elektronika cyfrowa/Statki/Pliki/Ps2Interface.vhd"/>
+        <Attr Name="ImportTime" Val="1584487007"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Pliki/Statki.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Desktop/Elektronika cyfrowa/Statki/Pliki/Statki.v"/>
+        <Attr Name="ImportTime" Val="1600119315"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Ships"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Pliki/Ships.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Desktop/Elektronika cyfrowa/Statki/Pliki/Ships.xdc"/>
+        <Attr Name="ImportTime" Val="1600118487"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,125 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (win64) Build 2018833 Wed Oct  4 19:58:22 MDT 2017
+| Date         : Mon Sep 14 23:41:05 2020
+| Host         : Marek-Komputer running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Ships_control_sets_placed.rpt
+| Design       : Ships
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    55 |
+| Unused register locations in slices containing registers |   139 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              94 |           61 |
+| No           | No                    | Yes                    |              47 |           21 |
+| No           | Yes                   | No                     |             559 |          320 |
+| Yes          | No                    | No                     |              57 |           22 |
+| Yes          | No                    | Yes                    |              34 |           13 |
+| Yes          | Yes                   | No                     |             326 |          146 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------------------+---------------------------------------------------------+---------------------------------------------------------+------------------+----------------+
+|                  Clock Signal                  |                      Enable Signal                      |                     Set/Reset Signal                    | Slice Load Count | Bel Load Count |
++------------------------------------------------+---------------------------------------------------------+---------------------------------------------------------+------------------+----------------+
+|  clk_generator/inst/clk40MHz                   | my_ProgramData/x_max_reg[4][0]                          | rst_IBUF                                                |                3 |              3 |
+|  clk_generator/inst/clk40MHz                   |                                                         | my_Mouse/Inst_Ps2Interface/data_inter0                  |                1 |              4 |
+|  clk_generator/inst/clk100MHz                  | my_uart/uart_unit/uart_rx_unit/s_reg[3]_i_1_n_0         | rst_IBUF                                                |                3 |              4 |
+|  clk_generator/inst/clk40MHz                   | my_Mouse/Inst_Ps2Interface/shift_frame                  | my_Mouse/Inst_Ps2Interface/reset_bit_count              |                1 |              4 |
+|  clk_generator/inst/clk40MHz                   |                                                         | my_Mouse/Inst_Ps2Interface/clk_inter0                   |                1 |              4 |
+|  clk_generator/inst/clk40MHz                   | my_ProgramData/uart_data_counter_nxt                    | rst_IBUF                                                |                2 |              4 |
+|  clk_generator/inst/clk40MHz                   | my_char/max_mouse_value0                                | my_Mouse/Inst_Ps2Interface/load_tx_data_i_1_n_0         |                4 |              4 |
+|  clk_generator/inst/clk40MHz                   | my_ProgramData/hit_ships1_nxt                           | rst_IBUF                                                |                1 |              5 |
+|  clk_generator/inst/clk40MHz                   | my_ProgramData/ships_to_hit[4]_i_1_n_0                  | rst_IBUF                                                |                2 |              5 |
+|  clk_generator/inst/clk40MHz                   | my_ProgramData/hit_ships2_nxt                           | rst_IBUF                                                |                1 |              5 |
+|  clk_generator/inst/clk40MHz                   | my_Mouse/Inst_Ps2Interface/right_down_reg               | rst_IBUF                                                |                3 |              6 |
+|  clk_generator/inst/clk40MHz                   | my_ProgramData/E[0]                                     | rst_IBUF                                                |                3 |              6 |
+|  clk_generator/inst/clk40MHz                   | my_ProgramData/rows_counter_reg[0][0]                   | rst_IBUF                                                |                4 |              7 |
+|  clk_generator/inst/clk40MHz                   | my_Mouse/Inst_Ps2Interface/delay_63clk_count[6]_i_2_n_0 | my_Mouse/Inst_Ps2Interface/delay_63clk_count[6]_i_1_n_0 |                3 |              7 |
+|  clk_generator/inst/clk40MHz                   | my_char/max_mouse_value0                                |                                                         |                7 |              7 |
+|  clk_generator/inst/clk100MHz                  | my_uart/uart_unit/uart_rx_unit/b_reg[7]_i_1_n_0         | rst_IBUF                                                |                2 |              8 |
+|  clk_generator/inst/clk100MHz_clk_wiz_0_en_clk |                                                         | rst_IBUF                                                |                1 |              8 |
+|  clk_generator/inst/clk40MHz                   | my_Mouse/tx_data[7]_i_1_n_0                             |                                                         |                4 |              8 |
+|  clk_generator/inst/clk40MHz                   | my_Mouse/Inst_Ps2Interface/load_rx_data                 |                                                         |                2 |              8 |
+|  clk_generator/inst/clk40MHz_clk_wiz_0_en_clk  |                                                         | rst_IBUF                                                |                1 |              8 |
+|  clk_generator/inst/clk40MHz                   | my_Mouse/Inst_Ps2Interface/E[0]                         | rst_IBUF                                                |                3 |              8 |
+|  clk_generator/inst/clk40MHz                   | my_Mouse/Inst_Ps2Interface/y_inc_reg[0][0]              | rst_IBUF                                                |                2 |              8 |
+|  clk_generator/inst/clk40MHz                   | my_Mouse/Inst_Ps2Interface/frame[9]_i_1_n_0             |                                                         |                3 |             10 |
+|  clk_generator/inst/clk40MHz                   |                                                         | my_game/rgb_out_reg[11]_0                               |                2 |             10 |
+|  clk_generator/inst/clk40MHz                   | my_Mouse/Inst_Ps2Interface/delay_20us_count[10]_i_2_n_0 | my_Mouse/Inst_Ps2Interface/delay_20us_count[10]_i_1_n_0 |                3 |             11 |
+|  clk_generator/inst/clk40MHz                   |                                                         | my_ProgramData/uart_backspace_i_1_n_0                   |                6 |             11 |
+|  clk_generator/inst/clk40MHz                   |                                                         | my_timing/hcount_reg[10]_i_1_n_0                        |                6 |             11 |
+|  clk_generator/inst/clk40MHz                   | my_timing/vcount_reg[10]_i_2_n_0                        | my_timing/vcount_reg[10]_i_1_n_0                        |                4 |             11 |
+|  clk_generator/inst/clk40MHz                   | my_Mouse/y_new_reg_n_0                                  |                                                         |                3 |             12 |
+|  clk_generator/inst/clk40MHz                   |                                                         | my_Display/red_out[3]_i_1_n_0                           |                4 |             12 |
+|  clk_generator/inst/clk40MHz                   | my_Mouse/x_new_reg_n_0                                  |                                                         |                3 |             12 |
+|  clk_generator/inst/clk40MHz                   |                                                         | my_timing/rgb_out_reg[11]                               |                5 |             12 |
+|  clk_generator/inst/clk40MHz                   | my_ProgramData/player2_name_reg[11][0][0]               | rst_IBUF                                                |                3 |             14 |
+|  clk_generator/inst/clk40MHz                   | my_ProgramData/player2_name_reg[12][0][0]               | rst_IBUF                                                |                5 |             14 |
+|  clk_generator/inst/clk40MHz                   | my_ProgramData/player2_name_reg[13][0][0]               | rst_IBUF                                                |                7 |             14 |
+|  clk_generator/inst/clk40MHz                   | my_ProgramData/player2_name_reg[14][0][0]               | rst_IBUF                                                |                6 |             14 |
+|  clk_generator/inst/clk40MHz                   | my_ProgramData/player2_name_reg[15][0][0]               | rst_IBUF                                                |               10 |             14 |
+|  clk_generator/inst/clk40MHz                   | my_ProgramData/player2_name_reg[1][0][0]                | rst_IBUF                                                |                5 |             14 |
+|  clk_generator/inst/clk40MHz                   | my_ProgramData/player2_name_reg[6][0][0]                | rst_IBUF                                                |                3 |             14 |
+|  clk_generator/inst/clk40MHz                   | my_ProgramData/player2_name_reg[3][0][0]                | rst_IBUF                                                |                6 |             14 |
+|  clk_generator/inst/clk40MHz                   | my_ProgramData/player2_name_reg[4][0][0]                | rst_IBUF                                                |                8 |             14 |
+|  clk_generator/inst/clk40MHz                   | my_ProgramData/player2_name_reg[5][0][0]                | rst_IBUF                                                |                7 |             14 |
+|  clk_generator/inst/clk40MHz                   | my_ProgramData/player2_name_reg[7][0][0]                | rst_IBUF                                                |               10 |             14 |
+|  clk_generator/inst/clk40MHz                   | my_ProgramData/player2_name_reg[8][0][0]                | rst_IBUF                                                |                5 |             14 |
+|  clk_generator/inst/clk40MHz                   | my_ProgramData/player2_name_reg[9][0][0]                | rst_IBUF                                                |                4 |             14 |
+|  clk_generator/inst/clk40MHz                   | my_Mouse/Inst_Ps2Interface/delay_100us_count[0]_i_2_n_0 | my_Mouse/Inst_Ps2Interface/delay_100us_count[0]_i_1_n_0 |                4 |             14 |
+|  clk_generator/inst/clk40MHz                   | my_ProgramData/player2_name_reg[2][0][0]                | rst_IBUF                                                |                7 |             14 |
+|  clk_generator/inst/clk40MHz                   | my_ProgramData/player2_name_reg[0][0][0]                | rst_IBUF                                                |                9 |             14 |
+|  clk_generator/inst/clk40MHz                   | my_ProgramData/player2_name_reg[10][0][0]               | rst_IBUF                                                |               11 |             14 |
+|  clk_generator/inst/clk40MHz                   | my_char/max_mouse_value0                                | my_game/char_xy_instruction_reg[0]                      |                5 |             16 |
+|  clk_generator/inst/clk100MHz                  |                                                         | rst_IBUF                                                |                7 |             20 |
+|  clk_generator/inst/clk40MHz                   |                                                         | my_Mouse/reset_timeout_cnt_reg_n_0                      |                7 |             24 |
+|  clk_generator/inst/clk40MHz                   |                                                         | my_Mouse/reset_periodic_check_cnt_reg_n_0               |                6 |             26 |
+|  clk_generator/inst/clk40MHz                   |                                                         |                                                         |               61 |             94 |
+|  clk_generator/inst/clk40MHz                   |                                                         | rst_IBUF                                                |              294 |            456 |
++------------------------------------------------+---------------------------------------------------------+---------------------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 3      |                     1 |
+| 4      |                     6 |
+| 5      |                     3 |
+| 6      |                     2 |
+| 7      |                     3 |
+| 8      |                     7 |
+| 10     |                     2 |
+| 11     |                     4 |
+| 12     |                     4 |
+| 14     |                    17 |
+| 16+    |                     6 |
++--------+-----------------------+
+
+

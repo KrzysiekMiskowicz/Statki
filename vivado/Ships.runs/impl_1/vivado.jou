@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Mon Sep 14 23:39:39 2020
+# Process ID: 4740
+# Current directory: C:/Users/Krzysiek/Desktop/Elektronika cyfrowa/Statki/Ships/Ships.runs/impl_1
+# Command line: vivado.exe -log Ships.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Ships.tcl -notrace
+# Log file: C:/Users/Krzysiek/Desktop/Elektronika cyfrowa/Statki/Ships/Ships.runs/impl_1/Ships.vdi
+# Journal file: C:/Users/Krzysiek/Desktop/Elektronika cyfrowa/Statki/Ships/Ships.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Ships.tcl -notrace
